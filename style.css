@@ -1,5 +1,7 @@
 body
-{font-family: 'Poppins', sans-serif;
+{
+    margin:0;
+    font-family: 'Poppins', sans-serif;
 
 }
 h1{
@@ -19,4 +21,85 @@ padding-left:2%;
 }
 .half-width img {
     width:100%;
+}
+.top-banner
+{
+    background-image:url("images/top-banner.png");
+    background-repeat:no-repeat;
+}
+section
+{
+    height:500px;
+    padding-bottom:300px;
+}
+
+.button{
+    color:white;
+    border:2px solid black;
+    padding:10px 20px;
+    border-radius: 2px;
+    text-decoration:none;
+    background-image:linear-gradient(45deg,lightsalmon,tomato);
+    font-weight:700;
+ }
+ .second-width{
+     width: 40%;
+     float:left;
+     padding-left: 2%;
+     
+ }
+ .second-width img{
+     width:100%;
+ }
+ .like h2{
+     font-size:50px;
+     
+ }
+ .like h3{
+     font-size:30px;
+ }
+ .my-button{
+    color:white;
+    border:2px solid black;
+    padding:10px 20px;
+    border-radius: 6px;
+    text-decoration:none;
+    background-image:linear-gradient(45deg,lightsalmon,tomato);
+    font-weight:700;
+
+ }
+ .second-section{
+    background-image:url("images/dream-bg.png");
+    background-repeat:no-repeat;
+    background-position:right;
+ }
+ .experiance-div
+ {
+    width:40%;
+    float:left;
+    margin-left:6%;
+    padding-left:2%;
+    box-shadow:10px 10px 30px gray;
+    height:80%;
+    background-color:white;
+
+    
+ }
+ .experiance-section{
+    background-image:url("images/exp-bg.png");
+    background-repeat:no-repeat;
+    background-position:left;
+ }
+ #fullstack{
+     border-left:6px solid;
+     border-image:linear-gradient(45deg,lightsalmon,tomato);
+     border-image-slice: 1;
+ }
+ #babydeveloper{
+    border-left:6px solid;
+    border-image:linear-gradient(180deg,blue,cyan);
+    border-image-slice: 1;
+}
+footer p{
+    text-align:center;
 }
